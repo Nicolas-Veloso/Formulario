@@ -58,6 +58,7 @@ label {
     font-weight: bold;
     color: white;
     cursor: pointer;
+    border: none;
 }
 
 .botão input:hover {
