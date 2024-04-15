@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: linear-gradient(green, red, black);
+    background-image: linear-gradient(blue, purple, black);
 }
 
 label {
@@ -35,12 +35,15 @@ label {
     border-radius: 5px;
     width: 100%;
     padding: 10px;
+    border: none;
 }
 
 .campo textarea {
     border-radius: 5px;
     width: 100%;
     padding: 10px;
+    border: none;
+
 
 }
 
@@ -48,6 +51,8 @@ label {
     border-radius: 5px;
     width: 100%;
     padding: 10px;
+    border: none;
+
 }
 
 .botão input {
@@ -64,4 +69,5 @@ label {
 .botão input:hover {
     background-color: white;
     color: black;
+
 }
