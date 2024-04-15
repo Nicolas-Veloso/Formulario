@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <form class="formulario">
+        <div class="campo">
+            <label for="Nome">Nome:</label>
+            <input type="text" id="text" value="name">
+        </div>
+
+        <div class="campo">
+            <label for="Email">Email:</label>
+            <input type="email" id="email" value="email">
+        </div>
+
+        <div class="campo">
+            <label for="Telefone">Telefone:</label>
+            <input type="number" id="telefone" value="phone">
+        </div>
+
+        <div class="campo">
+            <label for="assunto">Assunto:</label>
+            <select id="assunto" name="assunto">
+
+                <option value="Elogio">Elogio</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Sugestão">Sugestão</option>
+                <option value="Comunicado">Comunicado</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+        </div>
+        <div class="botão">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+
+</body>
+
+</html>
